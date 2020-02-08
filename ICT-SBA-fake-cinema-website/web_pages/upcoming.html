@@ -1,0 +1,191 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <link href="../style.css" id="pagestyle" rel="stylesheet">
+ <link rel="stylesheet" id="pagestyle" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function changefont(sheet){
+   document.getElementById("pagestyle") .setAttribute('href',sheet)
+  }
+ </script>
+</head>
+
+<body id="upcoming">
+ <div class="header-logo-part">
+  <table border="0">
+   <tr>
+   <td width="200"><a href="../index.html" target="_self"><img src="../img_vid/cinema_logo2.png" alt="Homepage" width="160" height="125"></a></td>
+	<td width="650"><img src="../img_vid/slogan.png" width="250" height="50"></td>
+    <td width="170" align="center"><a href="textonly.html" id="txtonly">Text-only version</a><br>
+	    <a href="https://www.facebook.com/cinemacityhk/" class="fa fa-facebook" target="_blank"></a>
+	    <a href="https://www.instagram.com/mcl_cinemas/" class="fa fa-instagram" target="_blank"></a></td>
+	<td style="font-size:19px" align="right">
+	    <a href="membersl.html" id="txtonly">Login</a>
+	    <button onclick=changefont('../style1.css')><img src="../img_vid/sa.png" width="10" height="10"></BUTTON>
+		<button onclick=changefont('../style.css')><img src="../img_vid/sa.png" width="15" height="15"></BUTTON>
+		<button onclick=changefont('../style2.css')><img src="../img_vid/sa.png" width="20" height="20"></BUTTON>
+		<br><img src="../img_vid/phone.png" alt="Contact us on 21800000" width="200" height="40"></a></td>
+   </tr>
+  </table>
+ </div>
+
+ <p>
+  <div class="menu">
+   <ul>
+    <li><a class="active1" href="../index.html" target="_self">Home</a></li>
+    <li><a href="about.html" target="_self">About Us</a></li>
+    <li><a href="ticketing.html" target="_self">Ticketing</a></li>
+    <li><a href="upcoming.html" target="_self">Upcoming</a></li>
+    <li><a href="newsnpromo.html" target="_self">News & Promotions</a></li>
+    <li><a href="membersl.html" target="_self">Memberships</a></li>
+ 
+   </ul>
+  </div>
+ </p>
+  <div class="ticket">
+  <form>
+   <select name="list" id="list" accesskey="target" onclick="goToNewPage()">
+    <option value="none" disabled selected>Select movie</option>
+    <option value="#jura">Jurassic World Evolution</option>
+	<option value="#nuc">Nuclear</option>
+	<option value="#emoji">The Emoji Movie</option>
+	<option value="#rambo">Rambo</option>
+	<option value="Batman">The Batman</option>
+	<option value="Kukai">Kukai</option>
+	<option value="Crown">Crown Heights</option>
+	<option value="Nut">Nut Job 2</option>
+	<option value="Justice">Justice League</option>
+	<option value="Wind">Wind river</option>
+  </select>
+ </form>
+  <div class="tmovie">
+   <table>
+    <tr><a name="jura"></a>
+	 <td width="180"><img src="../img_vid/small_movie11.jpg" alt="Jurassic World Evolution" width="160" height="220"></td>
+	 <td width="325" id="tmovie-info">Name: Jurassic World Evolution<br>Genre : Adventrous<br>Class : IIA<br>Opening Date : 2017-09-21<br>Length : 123 Minutes<br>
+	                <button class="button" id="myBtn" style="font-size:20px">Trailer</button>
+					 <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <embed src="../img_vid/t2.mp4" width="800" height="500"></embed>
+       </div>
+
+       </div></td>
+	 <td id="tmovie-info"><h3>Introduction</h3>
+	     <p>Located off the coast of Costa Rica, the Jurassic World luxury resort provides a habitat for an array of genetically engineered dinosaurs, including the vicious and intelligent Indominus rex. When the massive creature escapes, it sets off a chain reaction that causes the other dinos to run amok. Now, it's up to a former military man and animal expert (Chris Pratt) to use his special skills to save two young brothers and the rest of the tourists from an all-out, prehistoric assault.</p>
+	 </td>
+	</tr>
+   </table>
+  </div>
+ <div class="tmovie">
+   <table>
+    <tr><a name="nuc"></a>
+	 <td width="180"><img src="../img_vid/small_movie12.jpg" alt="Nuclear" width="160" height="220"></td>
+	 <td width="325" id="tmovie-info">Name: Nuclear<br>Genre : Adventrous<br>Class : IIA<br>Opening Date : 2017-09-21<br>Length : 120 Minutes<br>
+	                 <button class="button" id="myBtn" style="font-size:20px">Trailer</button></td>
+	 <td id="tmovie-info"><h3>Introduction</h3>
+	     <p>The film deals with a subject of terrorism and will explore the consequences the world will face if nuclear bomb gets into the wrong hands. “…The echoes of the nuclear bombs on the cities of Hiroshima and Nagasaki are still reverberating in the world’s ears 70 years after they exploded making it impossible for the world to forget the terror they unleashed.</p>
+	 </td>
+	</tr>
+   </table>
+  </div>
+ <div class="tmovie">
+   <table>
+    <tr><a name="emoji"></a>
+	 <td width="180"><img src="../img_vid/small_movie13.jpg" alt="The Emoji Movie" width="160" height="220"></td>
+	 <td width="325" id="tmovie-info">Name: The Emoji Movie<br>Genre : Thriller<br>Class : IIB<br>Opening Date : 2017-09-21<br>Length : 113 Minutes<br>
+	                 <button class="button" id="myBtn" style="font-size:20px">Trailer</button></td>
+	 <td id="tmovie-info"><h3>Introduction</h3>
+	     <p>Hidden inside a smartphone, the bustling city of Textopolis is home to all emojis. Each emoji has only one facial expression, except for Gene, an exuberant emoji with multiple expressions. Determined to become "normal" like the other emojis, Gene enlists the help of his best friend Hi-5 and a notorious code breaker called Jailbreak. During their travels through the other apps, the three emojis discover a great danger that could threaten their phone's very existence.</p>
+	 </td>
+	</tr>
+   </table>
+  </div>
+ <div class="tmovie">
+   <table>
+    <tr><a name="rambo"></a>
+	 <td width="180"><img src="../img_vid/small_movie14.jpg" alt="Rambo" width="160" height="220"></td>
+	 <td width="325" id="tmovie-info">Name: Rambo<br>Genre : Sci-Fi<br>Class : IIA<br>Opening Date : 2017-09-21<br>Length : 123 Minutes<br>
+	                <button class="button" id="myBtn" style="font-size:20px">Trailer</button></td>
+	 <td id="tmovie-info"><h3>Introduction</h3>
+	     <p>In Thailand, John Rambo joins a group of mercenaries to venture into war-torn Burma, and rescue a group of Christian aid workers who were kidnapped by the ruthless local infantry unit.</p>
+	 </td>
+	</tr>
+   </table>
+  </div>
+  </div>
+  <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="ticketing.html" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+<br><br>
+<div class="map" align="center">
+ <table>
+ <tr>
+ <td><b>Basic</b><br>
+ <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#">Join Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">FAQs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Security Policy</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buy Tickets</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ticketing.html">Ticketing</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="upcoming.html">Upcoming</a></td></tr>
+   <tr><td><b>What's up?</b><br>
+   <a href="newsnpromo.html">News & Promotions</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Memberships</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="membersl.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="memberss.html">Sign Up</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/cinemacityhk/">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/mcl_cinemas/">Instagram</a></td></tr>
+ </table>
+  </div>
+  
+   <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+</body>
+</html>

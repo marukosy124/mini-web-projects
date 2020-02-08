@@ -1,0 +1,318 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <link href="../style.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="homepage">
+ <div class="header-logo-part">
+  <table border="0">
+   <tr>
+    <td width="200"><a href="home_user.html" target="_self"><img src="../img_vid/cinema_logo2.png" alt="Homepage" width="160" height="125"></a></td>
+	<td width="650"><img src="../img_vid/slogan.png" width="250" height="50"></td>
+    <td><a href="textonly.html" id="txtonly">Text-only version</a><br>
+	    <a href="https://www.facebook.com/cinemacityhk/" class="fa fa-facebook" target="_blank"></a>
+	    <a href="https://www.instagram.com/mcl_cinemas/" class="fa fa-instagram" target="_blank"></a></td>
+    <td style="font-size:19px" align="right">
+	<button><img src="../img_vid/sa.png" width="10" height="10"></BUTTON>
+		<button><img src="../img_vid/sa.png" width="15" height="15"></BUTTON>
+		<button><img src="../img_vid/sa.png" width="20" height="20"></BUTTON>
+		<br>Welcome username1234!<br><img src="../img_vid/phone.png" alt="Contact us on 21800000" width="200" height="40"></a></td>
+   </tr>
+  </table>
+ </div>
+
+ <p>
+  <div class="menu">
+   <ul>
+    <li><a class="active1" href="home_user.html" target="_self">Home</a></li>
+    <li><a href="about.html" target="_self">About Us</a></li>
+    <li><a href="ticketing.html" target="_self">Ticketing</a></li>
+    <li><a href="upcoming.html" target="_self">Upcoming</a></li>
+    <li><a href="newsnpromo.html" target="_self">News & Promotions</a></li>
+    <li><a href="membersl.html" target="_self">Memberships</a></li>
+   </ul>
+  </div>
+ </p>
+ <div>
+  <div class="slideshow-container">
+
+   <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../img_vid/big_movie1.jpg" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../img_vid/big_movie2.jpg" style="width:100%">
+   </div>
+
+   <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../img_vid/big_movie3.jpg" style="width:100%">
+   </div>
+
+  </div>
+ <br>
+
+  <div style="text-align:center">
+   <span class="dot"></span> 
+   <span class="dot"></span> 
+   <span class="dot"></span> 
+  </div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+
+ </div>
+  <div class="whole-tab">
+   <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Ticketing')"  id="defaultOpen">Ticketing</button>
+    <button class="tablinks" onclick="openCity(event, 'Upcoming')">Upcoming</button>
+   </div>
+
+ <div id="Ticketing" class="tabcontent">
+  <table border="0">
+   <tr>
+    <td width="200" height="240">
+     <div class="container">
+      <img src="../img_vid/small_movie1.jpg" alt="Moonlight" class="image">
+       <div class="middle">
+       <button class="button"><span>Buy Now</span></button>
+       </div>
+     </div>
+   </td>
+   <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie2.jpg" alt="Popeye" class="image">
+      <div class="middle">
+      <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie3.jpg" alt="Resident Evil" class="image">
+      <div class="middle">
+       <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie4.jpg" alt="Wonder" class="image">
+      <div class="middle">
+       <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie5.jpg" alt="Underworld Blood Wars" class="image">
+      <div class="middle">
+       <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie6.jpg" alt="Life" class="image">
+      <div class="middle">
+      <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie7.jpg" alt="Arsenal" class="image">
+      <div class="middle">
+       <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+   <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie8.jpg" alt="Smurfs" class="image">
+      <div class="middle">
+       <<button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie9.jpg" alt="Ghost Shell" class="image">
+      <div class="middle">
+       <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+   <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie10.jpg" alt="Fences" class="image">
+      <div class="middle">
+       <button class="button"><span>Buy Now</span></button>
+      </div>
+    </div>
+   </td>
+  </tr>
+  </table>
+</div>
+
+<div id="Upcoming" class="tabcontent">
+   <table border="0">
+   <tr>
+    <td width="200"  height="240">
+     <div class="container">
+      <img src="../img_vid/small_movie11.jpg" alt="Jurassic World Evolution" class="image">
+       <div class="middle">
+        <button class="button"><span>Check out</span></button>
+       </div>
+     </div>
+   </td>
+   <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie12.jpg" alt="Nuclear" class="image">
+      <div class="middle">
+       <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie13.jpg" alt="The Emoji Movie" class="image">
+      <div class="middle">
+      <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie14.jpg" alt="Rambo" class="image">
+      <div class="middle">
+      <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie15.jpg" alt="The Batman" class="image">
+      <div class="middle">
+       <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+  </tr>
+  <tr>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie16.jpg" alt="Kukai" class="image">
+      <div class="middle">
+       <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie17.jpg" alt="Crown Heights" class="image">
+      <div class="middle">
+      <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+   <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie18.jpg" alt="Nut Job 2" class="image">
+      <div class="middle">
+      <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+    <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie19.jpg" alt="Justice League" class="image">
+      <div class="middle">
+       <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+   <td width="200">
+    <div class="container">
+     <img src="../img_vid/small_movie20.jpg" alt="Wind river" class="image">
+      <div class="middle">
+       <button class="button"><span>Check out</span></button>
+      </div>
+    </div>
+   </td>
+  </tr>
+  </table>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</div>
+<div class="map" align="center">
+<table>
+ <tr>
+ <td><b>Basic</b><br>
+ <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="web_pages/about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#">Join Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">FAQs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Security Policy</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buy Tickets</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="web_pages/ticketing.html">Ticketing</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="web_pages/upcoming.html">Upcoming</a></td></tr>
+   <tr><td><b>What's up?</b><br>
+   <a href="web_pages/newsnpromo.html">News & Promotions</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Memberships</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="web_pages/membersl.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="web_pages/memberss.html">Sign Up</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/cinemacityhk/">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/mcl_cinemas/">Instagram</a></td></tr>
+ </table>
+  </div>
+
+</body>
+</html>

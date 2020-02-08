@@ -1,0 +1,218 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <link href="../style.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="ticketing">
+ <div class="header-logo-part">
+  <table border="0">
+   <tr>
+    <td width="200"><a href="../index.html" target="_self"><img src="../img_vid/cinema_logo2.png" alt="Homepage" width="160" height="125"></a></td>
+	<td width="650"><img src="../img_vid/slogan.png" width="250" height="50"></td>
+    <td width="170" align="center"><a href="textonly.html" id="txtonly">Text-only version</a><br>
+	    <a href="https://www.facebook.com/cinemacityhk/" class="fa fa-facebook" target="_blank"></a>
+	    <a href="https://www.instagram.com/mcl_cinemas/" class="fa fa-instagram" target="_blank"></a></td>
+    <td style="font-size:19px" align="right">
+	    <a href="membersl.html" id="txtonly">Login</a>
+	    <button><img src="../img_vid/sa.png" width="10" height="10"></BUTTON>
+		<button><img src="../img_vid/sa.png" width="15" height="15"></BUTTON>
+		<button><img src="../img_vid/sa.png" width="20" height="20"></BUTTON>
+	<br><img src="../img_vid/phone.png" alt="Contact us on 21800000" width="200" height="40"></a></td>
+   </tr>
+  </table>
+ </div>
+
+ <p>
+  <div class="menu">
+   <ul>
+    <li><a class="active1" href="../index.html" target="_self">Home</a></li>
+    <li><a href="about.html" target="_self">About Us</a></li>
+    <li><a href="ticketing.html" target="_self">Ticketing</a></li>
+    <li><a href="upcoming.html" target="_self">Upcoming</a></li>
+    <li><a href="newsnpromo.html" target="_self">News & Promotions</a></li>
+    <li><a href="membersl.html" target="_self">Memberships</a></li>
+ 
+   </ul>
+  </div>
+ </p>
+ <div class="ticket">
+  <form>
+   <select name="list" id="list" accesskey="target" onclick="goToNewPage()">
+    <option value="none" disabled selected>Select movie</option>
+    <option value="#moon">Moonlight</option>
+	<option value="#pop">Popeye</option>
+	<option value="#evil">Resident Evil</option>
+	<option value="#won">Wonder</option>
+	<option value="Underworld">Underworld Blood Wars</option>
+	<option value="Life">Life</option>
+	<option value="Arsenal">Arsenal</option>
+	<option value="Smurfs">Smurfs</option>
+	<option value="Ghost">Ghost Shell</option>
+	<option value="Fences">Fences</option>
+  </select>
+ </form>
+  <div class="tmovie">
+   <table>
+    <tr><a name="moon"></a>
+	 <td width="180"><img src="../img_vid/small_movie1.jpg" alt="Moonlight" width="160" height="220"></td>
+	 <td width="500" id="tmovie-info">Name: Moonlight<br>Genre : Drama<br>Class : IIA<br>Length : 123 Minutes<br>
+	 <button class="button" id="myBtn" style="font-size:20px">Trailer</button>
+        <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <embed src="../img_vid/t1.mp4" width="800" height="500"></embed>
+       </div>
+
+       </div>
+     </td>
+	 <td><form class="tselect" id="tmovie-info">
+          Pick a time:<select name="book" id="book" accesskey="target" onclick="goToNewPage1()">
+           <option value="none">Tue, Aug 8, 09:55 PM House 5 HKD 90.00 (2D)</option>
+           <option value="booking.html">Tue, Aug 8, 10:20 PM House 3 HKD 90.00 (2D)</option>
+	       <option value="time3">Wed, Aug 9, 01:55 PM House 5 HKD 105.00 (2D)</option>
+	       <option value="time4">Wed, Aug 9, 07:15 PM House 5 HKD 105.00 (2D)</option>
+          </select>
+         </form>
+	 </td>
+	</tr>
+   </table>
+  </div>
+ <div class="tmovie">
+   <table>
+    <tr><a name="pop"></a>
+	 <td width="180"><img src="../img_vid/small_movie2.jpg" alt="Popeye" width="160" height="220"></td>
+	 <td width="500" id="tmovie-info">Name: Popeye<br>Genre : Adventrous<br>Class : IIA<br>Length : 120 Minutes<br>
+	   <button class="button" id="myBtn" style="font-size:20px">Trailer</button></td>
+	 <td><form class="tselect" id="tmovie-info">
+          Pick a time:<select>
+           <option value="time1">Tue, Aug 8, 09:35 PM House 5 HKD 90.00 (2D)</option>
+           <option value="time2">Tue, Aug 8, 10:40 PM House 3 HKD 90.00 (2D)</option>
+	       <option value="time3">Wed, Aug 9, 01:45 PM House 5 HKD 105.00 (2D)</option>
+	       <option value="time4">Wed, Aug 9, 07:25 PM House 5 HKD 105.00 (2D)</option>
+          </select>
+         </form>
+	 </td>
+	</tr>
+   </table>
+  </div>
+ <div class="tmovie">
+   <table>
+    <tr><a name="evil"></a>
+	 <td width="180"><img src="../img_vid/small_movie3.jpg" alt="Resident Evil" width="160" height="220"></td>
+	 <td width="500" id="tmovie-info">Name: Resident Evil<br>Genre : Thriller<br>Class : IIB<br>Length : 113 Minutes<br>
+	 <button class="button" id="myBtn" style="font-size:20px">Trailer</button><td><form class="tselect" id="tmovie-info">
+          Pick a time:<select>
+           <option value="time1">Tue, Aug 8, 09:15 PM House 5 HKD 90.00 (2D)</option>
+           <option value="time2">Tue, Aug 8, 10:10 PM House 3 HKD 90.00 (2D)</option>
+	       <option value="time3">Wed, Aug 9, 01:15 PM House 5 HKD 105.00 (2D)</option>
+	       <option value="time4">Wed, Aug 9, 07:45 PM House 5 HKD 105.00 (2D)</option>
+          </select>
+         </form>
+	 </td>
+	</tr>
+   </table>
+  </div>
+ <div class="tmovie">
+   <table>
+    <tr><a name="won"></a>
+	 <td width="180"><img src="../img_vid/small_movie4.jpg" alt="Wonder" width="160" height="220"></td>
+	 <td width="500" id="tmovie-info">Name: Wonder<br>Genre : Sci-Fi<br>Class : IIA<br>Length : 123 Minutes<br>
+	 <button class="button" id="myBtn" style="font-size:20px">Trailer</button></td>
+	 <td><form class="tselect" id="tmovie-info">
+          Pick a time:<select>
+           <option value="time1">Tue, Aug 8, 09:45 PM House 5 HKD 90.00 (2D)</option>
+           <option value="time2">Tue, Aug 8, 10:30 PM House 3 HKD 90.00 (2D)</option>
+	       <option value="time3">Wed, Aug 9, 01:25 PM House 5 HKD 105.00 (2D)</option>
+	       <option value="time4">Wed, Aug 9, 07:55 PM House 5 HKD 105.00 (2D)</option>
+          </select>
+         </form>
+	 </td>
+	</tr>
+   </table>
+  </div>
+  </div>
+  <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="ticketing.html" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+<br><br>
+<div class="map" align="center">
+ <table>
+ <tr>
+ <td><b>Basic</b><br>
+ <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#">Join Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">FAQs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Security Policy</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buy Tickets</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ticketing.html">Ticketing</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="upcoming.html">Upcoming</a></td></tr>
+   <tr><td><b>What's up?</b><br>
+   <a href="newsnpromo.html">News & Promotions</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Memberships</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="membersl.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="memberss.html">Sign Up</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/cinemacityhk/">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/mcl_cinemas/">Instagram</a></td>
+ </table>
+  </div>
+  
+   <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+	
+function goToNewPage1()
+    {
+        var url = document.getElementById('book').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+</body>
+</html>

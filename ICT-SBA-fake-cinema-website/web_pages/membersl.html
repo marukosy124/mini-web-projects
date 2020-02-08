@@ -1,0 +1,48 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+  <link href="../style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="members">
+ <div class="hero-image">
+  <div class="hero-text">
+    <img src="../img_vid/cinema_logo2.png" width="280" height="225">
+    <h2 id="demo">Get all the benefits you deserve here.</h2>
+	<div class="login">
+     <form action="home_user.html" method="post" name="loginform" onsubmit="return login()" >
+      Username: 
+      <input type="text" name="username" autocomplete="on"><br>
+      Password: 
+      <input type="password" name="pw">
+  	  <br><button onclick="login()">Login</button>
+	  </div>
+	 </form>
+	<button onclick="window.location.href='memberss.html'">Sign Up</button>
+  </div>
+</div>
+<script>
+function login() {
+    var x = loginform.username.value;
+	var y = loginform.pw.value;
+	 if (x.length == 0 || y.length == 0) {
+        alert("You have not filled in all the blanks!") ;
+		return false;
+	}
+	else  if (x === "username1234" && y ==="username1234") {
+        window.location.href ="home_user.html";
+		return true;
+    }
+	else {
+        alert("Incorrect username or password!") ;
+		return false;
+    } 
+	
+}
+
+
+</script>
+</body>
+</html>

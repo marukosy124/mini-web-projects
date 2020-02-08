@@ -1,0 +1,191 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <link href="../style.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="memberss">
+ <div class="header-logo-part">
+  <table border="0">
+   <tr>
+   <td width="200"><a href="../index.html" target="_self"><img src="../img_vid/cinema_logo2.png" alt="Homepage" width="160" height="125"></a></td>
+	<td width="650"><img src="../img_vid/slogan.png" width="250" height="50"></td>
+    <td><a href="textonly.html" id="txtonly">Text-only version</a><br>
+	    <a href="https://www.facebook.com/cinemacityhk/" class="fa fa-facebook" target="_blank"></a>
+	    <a href="https://www.instagram.com/TickIt_cinemas/" class="fa fa-instagram" target="_blank"></a></td>
+    <td style="font-size:19px" align="right">
+	    <a href="membersl.html" id="txtonly">Login</a>
+	    <button><img src="../img_vid/sa.png" width="10" height="10"></BUTTON>
+		<button><img src="../img_vid/sa.png" width="15" height="15"></BUTTON>
+		<button><img src="../img_vid/sa.png" width="20" height="20"></BUTTON>
+		<br><img src="../img_vid/phone.png" alt="Contact us on 21800000" width="200" height="40"></a></td>
+   </tr>
+  </table>
+ </div>
+
+ <p>
+  <div class="menu">
+   <ul>
+    <li><a class="active1" href="../index.html" target="_self">Home</a></li>
+    <li><a href="about.html" target="_self">About Us</a></li>
+    <li><a href="ticketing.html" target="_self">Ticketing</a></li>
+    <li><a href="upcoming.html" target="_self">Upcoming</a></li>
+    <li><a href="newsnpromo.html" target="_self">News & Promotions</a></li>
+    <li><a href="membersl.html" target="_self">Memberships</a></li>
+ 
+   </ul>
+  </div>
+ <div class="signup">
+  <h2>Memberships Registration</h2>
+  <h3>General Information</h3>
+  <form name="signup-form" method="post" action="../index.html" onsubmit="return login()" >
+   First Name: <input type="text" name="fname" maxlength="15" required>&nbsp;&nbsp;&nbsp;
+   Last Name: <input type="text" name="name" maxlength="15" required> &nbsp;&nbsp;&nbsp;
+   Gender:  
+   <input type="radio" name="gender" value="f">Female
+   <input type="radio" name="gender" value="m">Male<br>
+   Date of birth(DD/MM):  
+   <select id="date" name="day">
+    <option value="1">01</option>
+    <option value="2">02</option>
+	<option value="3">03</option>
+	<option value="4">04</option>
+	<option value="5">05</option>
+	<option value="6">06</option>
+	<option value="7">07</option>
+	<option value="8">08</option>
+	<option value="9">09</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+  </select>&nbsp;&nbsp;&nbsp;
+  <select id="date" name="month">
+    <option value="1">01</option>
+    <option value="2">02</option>
+	<option value="3">03</option>
+	<option value="4">04</option>
+	<option value="5">05</option>
+	<option value="6">06</option>
+	<option value="7">07</option>
+	<option value="8">08</option>
+	<option value="9">09</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+  </select><br>
+  Age(You must be at least 15 years old for registration): 
+   <select id="age" name="agegp">
+    <option value="18">15-17 </option>
+    <option value="25">18-25</option>
+	<option value="36">26-36</option>
+	<option value="45">37-45</option>
+	<option value="46">46 or above</option>
+  </select><br>
+  <h3>Ways of Contact</h3><br>
+  Phone no.: <input type="text" name="phone" pattern="[23569]{1}[0-9]{7}" required>&nbsp;&nbsp;&nbsp;
+  E-mail: <input type="email" name="email" required>&nbsp;&nbsp;&nbsp;
+  Confirm Email: <input type="email" name="email" required><br>
+  <br><h3>Account Settings</h3><br>
+  Username: <input type="text" name="uname-signup" maxlength="8" required> *must consist of not more than 8 characters, numbers or symbols <br>
+  Password: <input type="password" name="pw-signup" min="8" required> *must consist of at least 8 characters or numbers <br>
+  Confirm Password : <input type="password" name="pw-signup" min="8" required>
+  <p>We will provide you with our latest movie information, membership privileges and birthday reward reminder etc., which will be delivered through various communication channels, in accordance with your consent. If do not wish to receive our promotional information, please tick the box indicating your objection to receiving any promotional information from TickIt Cinema. If you do not tick the box below, that indicates your consent to receive promotional information from TickIt Cinema.</p>
+  <input type="radio" name="receiveOK" value="receiveNO"> I do not wish to receive email of the latest movie information, membership privileges and birthday reward reminder from TickIt Cinema.<br><br>
+    <div class="terms">
+	 <h3>Membership Terms and Conditions</h3>
+      <h4>General Terms and Conditions</h4>
+       <ul class="info"><li>- Members are required to provide valid, accurate and complete information in the application form</li>
+           <li>- If there are any updates on personal contact information, please visit the website to make the necessary changes. TickIt shall not be responsible for any loss as a result of incorrect or incomplete information input and unsuccessful email delivery of any promotional updates</li>
+           <li>- It is valid for ONE year (from the date of issuance) at a membership fee of HK$158. In order to renew the membership, members are required to pay a renewal fee of HK$120 for TickIt CLUB prior to membership expiration</li>
+           <li>- Members can only renew the membership for a maximum of 2 times from the year of joining, i.e. the maximum membership effective period is 3 years only</li>
+          </ul>
+     <h4>Membership Card Terms & Conditions</h4>
+       <ul class="info"><li>- Members must present the valid membership card at box office or concession counter in order to enjoy the discount offers</li>
+           <li>- Members are liable to keep the card in safety. Members shall be responsible for maintaining the confidentiality of the login name and password and are fully responsible for all activities that occur under the member's account</li>
+           <li>- TickIt shall not be responsible for any loss (including loss of points) suffered by members due to their loss of membership card or password</li></ul>
+     <h4>Members’ Privileges</h4>
+       <ul class="info"><li>- Members can enjoy ticket discounts, concession offers and bonus points rewards at all TickIt Cinemas
+           <li>- Ticket discounts are not applicable to redeem the ticket of MX4D movie or BEA Festival Suite of Festival Grand Cinema
+           <li>- Ticket discount is applicable to regular-priced ticket ONLY and is not applicable to redeem the ticket of MX4D movie, certain blackout dates as specified by cinemas, Senior/Student/Child tickets, morning shows, midnight shows, Tuesday shows, preview shows, film festivals, alternative programs, live broadcast programs, venue rental or group bookings, films with special arrangement with film distributors and any special featured films</li>
+           <li>For each valid membership, new member or renewed member can only redeem one birthday complimentary ticket within the one-year membership</li></ul>
+     <h4>Bonus Points Rewards</h4>
+       <ul class="info"><li>- Bonus points will be accumulated for any ticket purchase via box office, website and mobile app, redemption of offers using gift vouchers and concession item purchase using discount coupons. No bonus point would be given for online booking fee, redemptions of offers using complimentary tickets, redemptions of concession item, house booking and bulk purchase. Gift redemption using bonus points can only be made at the box office of TickIt Cinemas</li>
+           <li>- Members must present the valid membership card at box office and concession counter in order to enjoy the discount offers and earn the bonus points. No bonus points would be earned for any transaction made if a member fails to present the card prior to payment. All points earned by any transaction will be automatically added to your account on the following working day</li>
+           <li>- Bonus points are non-transferable and cannot be exchanged for cash</li>
+           <li>- TickIt shall not be liable for any bonus points loss in membership record as a result of a technical defect or error</li></ul>
+    <h4>Promotional Information</h4>
+	<p>Please note that it is mandatory for you to provide the personal data marked with asterisk for the purpose of processing your purchase orders and managing your account with us. Your name, birthday, email address, contact number or mobile phone number and signature collected by us will be used for providing you with our products, gifts, privileges or any information about our services. We cannot use your personal data unless we have received your consent or indication of no objection.</P>
+  <h3>Personal Information Collection Statement</h3>
+    <p>Please note that it is mandatory for you to provide the personal data marked with asterisk for the purpose of processing your purchase orders and managing your account with us. Your name, mobile phone number and email address collected by us will be used for providing you with our products, gifts, privileges or any information about our services. We cannot use your personal data unless we have received your consent or indication of no objection. </p>
+   <h4>Disclosure of Personal Data</h4>
+    <p>For the personal data collected by TickIt from you, we will not sell, share, transfer or disclose to any third parties for direct marketing purposes without your consent. </p>
+   <h4>Data Access and Correction </h4>
+    <p>You have the right to make your data access request or amend any incorrect information TickIt hold about you. To do so, please state your request by writing to Customer Service Officer of TickIt and email to contact_TickIt@intercontinental.com.hk.</p>
+    <p>Last Updated: March 2017</p>
+	</div><br>
+	<p class="small-txt">If you wish to receive information stated on the above, please tick the box below: </p><br>
+	<input type="radio" name="receiveOK" value="receiveYS"> I accept the proposed use of my personal data as stated above.<br>
+	<p class="small-txt">Please tick the box below and sign in the space provided:</p><br>
+	<input type="radio" name="readOK" value="readYS" required>  I have read and fully understood all the terms and conditions of the TickIt Cinema membership and hereby sigy my acceptance and submit my application with payment.<br>
+	<p class="small-txt">Please tick the below (Applicable to applicant who is below 18)<br>
+	If you are under the age of 18,we recommend that you seek prior consent from your parent or guardian before providing us with any of your Personal Data.</p><br>
+	<input type="radio" name="parentOK" value="parentYS"> I have obtained parental or guardian consent to the membership applications <br><br>
+	<div align="center"><input type="submit" value="Submit" class="sig button-submit" onclick="signup()">&nbsp;&nbsp;&nbsp;
+    <input type="reset" value="Reset" class="sig button-reset"> </div>
+ </div>
+ </form>
+ <br><br>
+  <div class="map" align="center">
+ <table>
+ <tr>
+ <td><b>Basic</b><br>
+ <a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="about.html">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#">Join Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">FAQs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="#">Security Policy</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buy Tickets</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ticketing.html">Ticketing</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="upcoming.html">Upcoming</a></td></tr>
+   <tr><td><b>What's up?</b><br>
+   <a href="newsnpromo.html">News & Promotions</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Memberships</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="membersl.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="memberss.html">Sign Up</a></td>
+   <td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</b><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/cinemacityhk/">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/TickIt_cinemas/">Instagram</a></td>
+ </table>
+  </div>
+  <script>
+  function signup(){
+    window.alert('Are you sure?');
+	window.alert('We have sent a verification mail to your email address, please verify the mail to activate your membership! Thank you for registration!');
+	window.location.href ="../index.html";
+}
+</script>
+	
+</body>
+</html>
