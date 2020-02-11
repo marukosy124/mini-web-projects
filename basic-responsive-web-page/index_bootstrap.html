@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+
+<head>
+<meta charset="utf-8">
+<title>SoniaYeung @ CS</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div id="fadein">
+<header>
+    <h1>Hey, it's Yeung Man Wai, Sonia</h1>
+    <h2>@Computer Science</h2>
+</header>
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#courses">Courses</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#links">Links</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#response">Response Web</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" onclick="callTask()" href="#">Special!</a>
+        </li>
+      </ul>
+</nav>
+    <div id="taskbtn"> 
+            <button onclick="changeAlign()" type="button" class="btn btn-outline-primary">Task 1: Align</button></li>
+            <button onclick="addHobby()" type="button" class="btn btn-outline-primary">Task 2: New Hobby</button></li>
+            <button onclick="showProgressBar()" type="button" class="btn btn-outline-primary">Task 3: Scroll</button></li>
+            <button onclick="showRangeSlider()" type="button" class="btn btn-outline-primary">Task 4: Bonus</button></li>
+    </div>
+
+
+<div class="progress" id="progress">
+    <div class="progress-bar progress-bar-striped" id="progressbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="height: 2em"></div> 
+</div>
+
+<div id="range-slider">
+    <input type="range" class="custom-range" data-default="0" value="0" min="0" max="360" step="1" oninput="hue(this.value)">
+</div>
+
+<div class="container">
+<div class="row justify-content-between">
+    <section id="about" class="p-3 mb-2 bg-light-blue text-black">
+        <h3>About Me</h3>
+            <div class="row container-fluid">
+                <div class="col-sm-8 col-xs-12">
+                    <p>Hi there! I am a Computer Science student in CUHK.</p>
+                </div>
+                <div class="col-sm-4 col-xs-12" id="pic">
+                    <img src="pepe.jpg" alt="me">
+                </div>
+            </div>
+            <div class="row container-fluid">
+                <h4 style="padding-left: 1em;">My Hobbies</h4>
+                <div id="hobbies">
+                    <div>Photography</div>
+                    <div>Coding</div>
+                    <div>Shopping</div>
+                    <div>Fashion</div>
+                </div>
+            </div>
+    </section>
+</div>
+
+<div class="row justify-content-between">
+    <div class="col-sm-6 col-xs-12">
+    <section id="courses" class="p-3 mb-2 bg-default text-black">
+        <h3>My Courses</h3>
+        <table class="table table-hover">
+            <thread>
+            <tr>
+                <th scope="col">Course code</th scope="col">
+                <th scope="col">Content</th scope="col">
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">CSCI2720</td scope="row">
+                <td>Building Web Application</td>
+            </tr>
+            <tr>
+                <td scope="row">CSCI2100</td scope="row">
+                <td>Data Structure</td>
+            </tr>
+            <tr>
+                <td scope="row">CSCI3250/ 3251</td scope="row">
+                <td>Computers and Society / Engineering Practicum</td>
+            </tr>
+            <tr>
+                <td scope="row">UGED1111</td scope="row">
+                <td>Logic</td>
+            </tr>
+            <tr>
+                <td scope="row">ENGG2430</td scope="row">
+                <td>Probability and Statistics</td>
+            </tr>
+        </tbody>
+        </table>
+    </section>
+    </div>
+
+
+    <div class="col-sm-6 col-xs-12">
+    <section id="links" class="p-3 mb-2 bg-purple text-black">
+        <h3>Useful Links</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="https://www.google.com.hk/webhp?hl=zh-TW">Google</a></li>
+            <li class="list-group-item"><a href="https://hk.yahoo.com/">Yahoo!</a></li>
+            <li class="list-group-item"><a href="https://www.w3schools.com/">w3school</a></li>
+            <li class="list-group-item"><a href="https://www.youtube.com/">YouTube</a></li>
+            <li class="list-group-item"><a href="https://lihkg.com/category/1">LIHKG</a></li>
+            <li class="list-group-item"><a href="https://www.ted.com/">TED</a></li>
+        
+        </ul>
+    </section>
+    </div>
+</div>
+
+<div class="row justify-content-between">
+    <section id="response" class="p-3 mb-2 bg-indigo text-black">
+        <h3>Responsive Web Design</h3>
+        <p>When the screen width is adjusted, all the elements are resized and some of the design are changed, in order to utilitze user&apos;s experience. Here are some points to note:</p>
+        <ul>
+            <li>Different navigation bar design</li>
+            <li>Different task buttons design</li>
+            <li>Different column, margin and border radius for sections</li>
+            <li>Different column for the "About" part</li>
+        </ul>
+    </section>
+</div>
+</div>
+
+<footer>
+This website was built on <time>2020-02-02</time>. <b>&copy; Yeung Man Wai, Sonia</b>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
