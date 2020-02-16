@@ -45,7 +45,7 @@ function showProgressBar(){
     var progbar = document.getElementById("progressbar");
     if (progdiv.offsetWidth === 0) {
         progdiv.style.display = "block";
-        progbar.style.width="0";
+        progbar.style.width = "0";
         window.onscroll = function() {showProgress()};
 
         function showProgress() {
@@ -73,4 +73,3 @@ function hue(value) {
     var hueVal = value + "deg";
     document.getElementById("pic").setAttribute("style", "-webkit-filter:hue-rotate(" + hueVal + ")")
 }
-
