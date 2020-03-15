@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSCI2720 Comment System</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container m-5">
+<ul id="comments" class="list-unstyled">
+  <li class="media">
+    <svg height="100" width="100">
+	  <circle cx="50" cy="50" r="40" fill="green">
+	</svg>
+    <div class="media-body">
+      <h5>My first comment</h5>
+	  <h6>chuckjee</h6>
+      <p>This lab is so fun! Let's explore more with Bootstrap and jQuery.</p>
+      <a href="#">Reply</a>
+    </div>
+  </li>
+</ul>
+</div>
+
+<form id="form">
+    <div class="form-group m-5">
+        <div class="form-group p-1">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="form-group p-1">
+            <label for="subj">Subject</label>
+            <input type="text" class="form-control" id="subj">
+        </div>
+        <div class="form-group p-1">
+            <label for="cm">Your comment</label>
+            <textarea class="form-control" rows="5" id="cm"></textarea>
+        </div>
+
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="color" value="red">Red
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="color" value="green">Green
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="color" value="yellow">Yellow
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="color" value="blue">Blue
+            </label>
+        </div>
+        <br/>
+        <br/>
+        <button id="submit" type="button" class="btn btn-primary">Add comment</button>
+    </div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
