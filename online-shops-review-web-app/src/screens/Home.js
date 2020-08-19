@@ -1,6 +1,7 @@
 import React from "react";
 import '../assets/App.css';
-import 'semantic-ui-css/semantic.min.css'
+// import 'semantic-ui-less/semantic.less'
+
 
 export default function Home() {
   return (

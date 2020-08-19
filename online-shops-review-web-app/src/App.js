@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import './assets/App.css';
-import 'semantic-ui-css/semantic.min.css'
+// import 'semantic-ui-less/semantic.less'
 import Home from './screens/Home'
 
 export default function App() {
