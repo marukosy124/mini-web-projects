@@ -12,16 +12,19 @@ export default function App() {
   return (
     <Router>
       <Sticky >
-        <Menu attached='top'>
+        <Menu attached='top' secondary widths={3}>
           <Link to="/" class="item">Home</Link>
           <Link to="/about" class="item">About</Link>
+          <Link to="/shops" class="item">Shops</Link>
         </Menu>
       </Sticky>
       <Switch>
         <Route path="/">
           <Home />
         </Route>
-        <Route path="/users">
+        <Route path="/about">
+        </Route>
+        <Route path="/shops">
         </Route>
       </Switch>
     </Router>
