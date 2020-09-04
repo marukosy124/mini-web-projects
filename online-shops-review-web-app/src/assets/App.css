@@ -1,0 +1,18 @@
+/* home page */
+.default {
+  margin: 2rem 5rem 0 5rem;
+}
+
+.shop-name {
+  padding-left: 0.5rem;
+}
+
+.comments-no,
+.category-tag {
+  float: right;
+  padding: 0.3rem 0.5rem 0 0.5rem;
+}
+
+.category-tag {
+  padding-top: 0.1rem !important;
+}
