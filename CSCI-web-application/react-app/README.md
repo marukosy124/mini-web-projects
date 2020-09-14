@@ -1,6 +1,11 @@
 ## Demo
 <img src="https://github.com/marukosy124/web-projects/blob/master/CSCI-web-application/react-app/react_demo_gif.gif">
 
+- [x] click "Timeline" to add activity (upload photo and content, use client's current time as the published time)
+- [x] right click an activity to delete it
+- [x] click search button to search activity
+- [x] click view button to interchange between list and grid view
+
 ## Get Started
 To start the React app:
 1. Open terminal and type "node server.js"
