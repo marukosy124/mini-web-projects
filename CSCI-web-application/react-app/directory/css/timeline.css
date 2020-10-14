@@ -241,29 +241,6 @@
     top: 11px;
 }
 
-.demo .notificationsFrame .content .item .commentCount {
-    position: absolute;
-    right: 15px;
-    font-size: 12px;
-    top: 11px;
-}
-
-.demo .notificationsFrame .content .item .commentCount:after {
-    content: "\f075";
-    font-family: FontAwesome;
-    position: absolute;
-    font-size: 20px;
-    color: #ebebeb;
-    top: -50%;
-    left: 100%;
-    margin-left: 10px;
-    z-index: 3;
-}
-
-.demo .notificationsFrame .content .item .commentCount:hover:after {
-    color: lightblue;
-}
-
 .demo .notificationsFrame .footer {
     position: relative;
     background: #fff;

@@ -1,9 +1,9 @@
 //Yeung Man Wai 1155126854
 
 const activities = [
-    { img_url: "assets/dog.jpg", time: "A hour ago", content: "Have lunch.", comments: [] },
-    { img_url: "assets/dog.jpg", time: "5 hours ago", content: "Have breakfast.", comments: [] },
-    { img_url: "assets/dog.jpg", time: "6 hours ago", content: "Get up.", comments: [] }
+    { img_url: "assets/dog.jpg", time: "A hour ago", content: "Have lunch." },
+    { img_url: "assets/dog.jpg", time: "5 hours ago", content: "Have breakfast."},
+    { img_url: "assets/dog.jpg", time: "6 hours ago", content: "Get up." }
 ];
 
 class App extends React.Component {
@@ -48,9 +48,7 @@ class App extends React.Component {
             img_url: image,
             // img_url: "assets/dog.jpg",
             time: time,
-            // time: time + " hours ago",
             content: content,
-            comments: []
         });
         return this.state.activities;
     }
@@ -190,7 +188,6 @@ class Content extends React.Component {
                                 img_url={activity.img_url}
                                 time={activity.time}
                                 content={activity.content}
-                                comments={activity.comments}
                                 rightClick={this.rightClick}
                                 index={index}
                             />
@@ -203,7 +200,6 @@ class Content extends React.Component {
                                 img_url={activity.img_url}
                                 time={activity.time}
                                 content={activity.content}
-                                comments={activity.comments}
                                 rightClick={this.rightClick}
                                 index={index}
                             />
@@ -215,14 +211,7 @@ class Content extends React.Component {
     }
 }
 
-// TO-FIX-BUG: comments not stored respectively
 class ActivityItem extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            comments: [],
-        };
-    }
     handleRightClick = (e) => {
         e.preventDefault();
         var index = this.props.index;
@@ -231,19 +220,9 @@ class ActivityItem extends React.Component {
             this.props.rightClick(index);
         }
     }
-    handleAddComment = (e) => {
-        e.preventDefault();
-        var d = new Date();
-        var time = d.toLocaleString();
-        var comment = time + ': ' + prompt("Enter comment:");
-        this.props.comments = this.props.comments.concat(comment)
-        this.setState({
-            comments: this.state.comments.concat(comment),
-        });
-    }
     render() {
         return (
-            <div className="item" onContextMenu={this.handleRightClick} onClick={this.handleAddComment}>
+            <div className="item" onContextMenu={this.handleRightClick}>
                 <div className="avatar">
                     <img src={this.props.img_url} />
                 </div>
@@ -254,16 +233,6 @@ class ActivityItem extends React.Component {
                 <p>
                     {this.props.content}
                 </p>
-                <p>(Click to add comment)</p>
-                <ul style={{ listStyle: 'none' }}>
-                    {this.state.comments.map(cm => (
-                        <li key={cm}>{cm}</li>
-                    ))}
-                </ul>
-                <div className="commentCount">
-                    {/* {this.props.comment_count} */}
-                    {this.state.comments.length}
-                </div>
             </div>
         );
     }
