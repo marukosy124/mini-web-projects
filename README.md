@@ -1,7 +1,7 @@
 # web-projects
 
 ## CSCI-web-applications
-This folder contains all the assignments I have done in CSCI2720.
+This folder contains all the assignments I have done in CSCI2720 - Building Web Applications.
 
 They are small exercises for beginners to learn fundamental web development.
 
