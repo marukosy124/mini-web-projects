@@ -1,5 +1,5 @@
 ## Abstract
-A very simple, basic repsonsive web page using HTML, CSS and JS.
+A very simple, basic responsive web page using HTML, CSS and JS.
 
 ## Demo
 
