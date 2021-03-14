@@ -1,3 +1,7 @@
+## Abstract
+
+A simple single-page diary application using React.
+
 ## Demo
 <img src="https://github.com/marukosy124/web-projects/blob/master/CSCI-web-application/react-app/react_demo_gif.gif">
 
