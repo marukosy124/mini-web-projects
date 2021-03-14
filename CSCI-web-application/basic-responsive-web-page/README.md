@@ -1,3 +1,6 @@
+## Abstract
+A very simple, basic repsonsive web page using HTML, CSS and JS.
+
 ## Demo
 
 - [x] responsive
