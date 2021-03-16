@@ -1,5 +1,3 @@
-# web-projects
-
 ## CSCI-web-applications
 This folder contains all the assignments I have done in CSCI2720 - Building Web Applications.
 
