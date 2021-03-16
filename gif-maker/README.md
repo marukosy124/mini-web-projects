@@ -6,7 +6,7 @@ Convert a video file to an animated GIF with Web Assembly.
 ## Demo
 <img src="demo.gif">
 
-### npm start
+### `npm start`
 
 Runs the app in the development mode.
 Open http://localhost:8080 to view it in the browser.
