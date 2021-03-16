@@ -13,6 +13,6 @@ My ICT SBA project in secondary school, which is my very first static website de
 For details, please read the README.md inside.
 
 ## GIF maker
-A very basic React app converting a video file to an animated GIF with Web Assembly.
+A very basic React app that converts a video file to an animated GIF with Web Assembly.
 
 For details, please read the README.md inside.
