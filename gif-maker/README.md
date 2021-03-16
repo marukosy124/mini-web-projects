@@ -4,6 +4,9 @@ Convert a video file to an animated GIF with Web Assembly.
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
 ## Demo
+- [x] Upload video
+- [x] Convertion
+- [x] Save converted GIF
 <img src="demo.gif">
 
 ### `npm start`
