@@ -1,5 +1,3 @@
-# GIF Maker with WASM (FFmpeg) & React
-
 ## Abstract
 Convert a video file to an animated GIF with Web Assembly. 
 
