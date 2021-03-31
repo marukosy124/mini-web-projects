@@ -9,7 +9,7 @@ Bootstrapped with Create Snowpack App (CSA).
 - [x] Save converted GIF
 - [x] Set start time and end time
 
-![image](https://user-images.githubusercontent.com/54564324/113198371-6b6e3100-9298-11eb-862e-c648ae039906.gif)
+<img src="demo.gif" />
 
 ### `npm start`
 
