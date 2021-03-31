@@ -5,9 +5,11 @@ Bootstrapped with Create Snowpack App (CSA).
 
 ## Demo
 - [x] Upload video
-- [x] Convertion
+- [x] Conversion
 - [x] Save converted GIF
-<img src="demo.gif">
+- [x] Set start time and end time
+
+![image](https://user-images.githubusercontent.com/54564324/113198371-6b6e3100-9298-11eb-862e-c648ae039906.png)
 
 ### `npm start`
 
