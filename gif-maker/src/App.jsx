@@ -90,7 +90,7 @@ function App() {
 
   return ready ? (
     <div className="App">
-      {video && <video controls width="400" src={getVideoURL(video)}></video>}
+      {video && <video controls width="300" src={getVideoURL(video)}></video>}
       <div>
         Start time:&nbsp;
         <input
@@ -110,7 +110,7 @@ function App() {
       <input type="file" onChange={(e) => setVideo(e.target.files?.item(0))} />
       <button onClick={convertToGif}>Convert</button>
       <h3>Result</h3>
-      {gif && <img src={gif} width="400" />}
+      {gif && <img src={gif} width="300" />}
       <button onClick={saveGif}>Save</button>
     </div>
   ) : (
