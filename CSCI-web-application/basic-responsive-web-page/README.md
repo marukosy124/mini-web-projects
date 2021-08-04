@@ -1,7 +1,7 @@
-## Abstract
+# About
 A very simple, basic responsive web page using HTML, CSS and JS.
 
-## Demo
+# Demo
 
 - [x] responsive
 - [x] links & anchor
