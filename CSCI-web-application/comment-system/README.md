@@ -1,8 +1,8 @@
-## Abstract
+# About
 
 A simple commenting system using HTML, CSS and JS.
 
-## Demo
+# Demo
 
 - [x] ajax
 - [x] add element
