@@ -1,9 +1,9 @@
-## Remarks
+# Remarks
 - Since it is a pure HTML4 website and no further update since 2017, some of the features may not be available as the original.
 Screenshots included in the report(instructions).docx are lost as well.
 - frontend implementation only, all backend-required features (e.g. membership, ticket confirmation) are hard-coded 
 
-## Highlights
+# Highlights
 - [x] button on hover animation
 - [x] tabs
 - [x] slideshow
@@ -11,7 +11,7 @@ Screenshots included in the report(instructions).docx are lost as well.
 - [x] form validation
 - [x] seat selection (button on click change color)
 
-## Screenshots
+# Screenshots
 
 **Home** | **Text-only**
 --- | ---
